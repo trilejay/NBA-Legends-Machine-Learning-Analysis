@@ -35,7 +35,7 @@ In this project, I apply machine learning techniques to compare the careers of M
 - **AdaBoost** – 88.9% accuracy.  
 - **Stacking (LR + KNN + Decision Tree → Logistic Regression)** – best performance at 91.5% accuracy.  
 
-## 📈 Results  
+## Results  
 - Machine learning models were able to distinguish between Jordan and LeBron with high accuracy, demonstrating clear statistical differences in their play styles.  
 - Ensemble methods (Random Forest, Stacking) provided the most robust results.  
 - Data-driven analysis confirmed that while both players are elite, their greatness manifests in different statistical ways.
