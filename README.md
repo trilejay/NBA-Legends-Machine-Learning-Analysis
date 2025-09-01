@@ -2,7 +2,7 @@
 
 In this project, I apply machine learning techniques to compare the careers of Michael Jordan and LeBron James using NBA datasets from Kaggle. The goal is to explore the GOAT debate from a data-driven perspective by analyzing player performance across advanced stats and applying various ML models.  
 
-## 🛠Tech Stack  
+## Tech Stack  
 - **Python**  
 - **Pandas** – data cleaning & feature engineering  
 - **scikit-learn** – ML models & evaluation  
