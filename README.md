@@ -22,11 +22,17 @@
 ## Machine Learning Models  
 ### Unsupervised Learning  
 - **KMeans Clustering** – grouped player seasons into performance tiers.  
+<img width="889" height="281" alt="image" src="https://github.com/user-attachments/assets/848963e9-2858-4e6c-a080-3527d6a83b5a" />
+<img width="858" height="856" alt="image" src="https://github.com/user-attachments/assets/566027b7-3dfd-4dd2-8181-1e134ec356d3" />
+
 - **Principal Component Analysis (PCA)** – reduced dimensionality for visualization.  
 - **Hierarchical Clustering** – revealed tiers of elite vs. role-player  
 
 ### Supervised Learning  
-- **Linear & Logistic Regression** – modeled relationships between usage and efficiency.  
+- **Linear & Logistic Regression** – modeled relationships between usage and efficiency.
+<img width="864" height="559" alt="image" src="https://github.com/user-attachments/assets/0f5b30f4-82b1-46fd-81c0-2c6cf0e88c2d" />
+<img width="926" height="557" alt="image" src="https://github.com/user-attachments/assets/4d2792c5-0ece-4768-8e40-998ea980e33f" />
+
 - **Decision Trees** – explained statistical differences between players.  
 - **Naive Bayes (Gaussian & Multinomial)** – classified playoff stats with ~69% accuracy.  
 - **Support Vector Machine (SVM)** – achieved 90%+ accuracy using RBF kernel.  
