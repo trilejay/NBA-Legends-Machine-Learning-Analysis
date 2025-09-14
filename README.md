@@ -21,7 +21,7 @@
 
 ## Machine Learning Models  
 ### Unsupervised Learning  
-- **KMeans Clustering** – grouped player seasons into performance tiers.  
+- **Clustering** – Used K-Means Clustering and PCA to group similar player-seasons together without any pre-defined labelsgrouped player seasons into performance tiers (role palyer, below-avg player, or star player). Jordan and Lebron were consistently clustered together under "Star Player" tier.
 <img width="889" height="281" alt="image" src="https://github.com/user-attachments/assets/848963e9-2858-4e6c-a080-3527d6a83b5a" />
 <img width="858" height="856" alt="image" src="https://github.com/user-attachments/assets/566027b7-3dfd-4dd2-8181-1e134ec356d3" />
 
@@ -35,7 +35,7 @@
 
 - **Decision Trees** – explained statistical differences between players.  
 - **Naive Bayes (Gaussian & Multinomial)** – classified playoff stats with ~69% accuracy.  
-- **Support Vector Machine (SVM)** – achieved 90%+ accuracy using RBF kernel.  
+- **Support Vector Machine (SVM)** – This was the star classifier. The RBF kernel achieved over 90% accuracy. This is a key result because it means Jordan and LeBron have statistically distinct features in their box score data. The model can look at a line of stats and say with high confidence, "This is a LeBron game," or "This is a Jordan game."
 
 ### Ensemble Methods  
 - **Random Forest** – 91.2% accuracy in classifying Jordan vs. LeBron performances.  
@@ -43,10 +43,12 @@
 - **Stacking (LR + KNN + Decision Tree → Logistic Regression)** – best performance at 91.5% accuracy.  
 
 ## Results  
-- The ML models I implemented were able to distinguish between Jordan and LeBron with high accuracy, demonstrating clear statistical differences in their play styles.  
-- Ensemble methods (Random Forest, Stacking) provided the most robust results.  
-- Data-driven analysis confirmed that while both players are elite, their greatness manifests in different statistical ways.
-- While models can classify games with >90% accuracy, the answer to "Who’s the GOAT?" is ultimately still subjective to the viewer. 
+- This project didn't declare a single winner... but it provided a data-backed framework for the debate.
+- The key insight here is that Jordan and LeBron are statistically distinct. The incredibly high accuracy of my classifiers proves that their styles of greatness are different but both are uniquely identifiable by machine learning models. Especially seen in the Support Vector Machine - the model was able to classify Jordan games from Lebron games with high accuracy. Combine this with the results of the clustering analysis, which verified that both Lebron and Jordan were consistently clustered into "Star Player" category, and we can come to the following conclusion:
+- There is no single answer. It depends on what you value: Jordan's peak scoring dominance and legendary status, OR LeBron's  all around versatility and longevity. These ML models can identify which style is which, but they can't decide which one is "better". That's where the debate lives on, and that's where statistics can't help.
+
+
+
 
 ---
 
