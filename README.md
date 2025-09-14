@@ -21,7 +21,7 @@
 
 ## Machine Learning Models  
 ### Unsupervised Learning  
-- **Clustering** – Used K-Means Clustering and PCA to group similar player-seasons together without any pre-defined labelsgrouped player seasons into performance tiers (role palyer, below-avg player, or star player). Jordan and Lebron were consistently clustered together under "Star Player" tier.
+- **Clustering** – Used K-Means Clustering and PCA to group similar player-seasons together without any pre-defined labelsgrouped player seasons into performance tiers (role palyer, below-avg player, or star player). Jordan and Lebron were consistently clustered together under "Star Player" tier. This model proves that greatness actually does have a statistical signature that ML models can detect objectively.
 <img width="889" height="281" alt="image" src="https://github.com/user-attachments/assets/848963e9-2858-4e6c-a080-3527d6a83b5a" />
 <img width="858" height="856" alt="image" src="https://github.com/user-attachments/assets/566027b7-3dfd-4dd2-8181-1e134ec356d3" />
 
